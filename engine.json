@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.jpioug.template.python.Engine",
+  "datasource": {
+    "params": {
+      "appName": "BHP_TOKEN"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "default",
+      "params": {
+        "name": "BHPApp"
+      }
+    }
+  ]
+}
