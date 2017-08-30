@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicReference
 
 import org.apache.predictionio.controller.{Engine, EngineFactory}
 import org.apache.spark.ml.PipelineModel
-import org.jpioug.template.iris.Algorithm
+import org.jpioug.template.bhp.Algorithm
 
 object Engine extends EngineFactory {
 

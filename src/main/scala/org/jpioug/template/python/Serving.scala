@@ -1,7 +1,7 @@
 package org.jpioug.template.python
 
 import org.apache.predictionio.controller.LServing
-import org.jpioug.template.iris.{PredictedResult, Query}
+import org.jpioug.template.bhp.{PredictedResult, Query}
 
 class Serving
   extends LServing[Query, PredictedResult] {

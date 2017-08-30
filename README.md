@@ -60,6 +60,6 @@ pio deploy
 Check predictions from deployed model:
 
 ```
-curl -s -H "Content-Type: application/json" -d '{"attr0":5.1,"attr1":3.5,"attr2":1.4,"attr3":0.2}' http://localhost:8000/queries.json
+curl -s -H "Content-Type: application/json" -d '{"AGE":26.3, "B":390.49, "CHAS":0.0, "CRIM":0.08664, "DIS":6.4798, "INDUS":3.44, "LSTAT":2.87, "NOX":0.43700000000000006, "PTRATIO":15.2, "RAD":5.0, "RM":7.178, "TAX":398.0, "ZN":45.0}' http://localhost:8000/queries.json
 ```
 
