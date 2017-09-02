@@ -4,7 +4,7 @@
   "engineFactory": "org.jpioug.template.python.Engine",
   "datasource": {
     "params": {
-      "appName": "BHP_TOKEN"
+      "appName": "BHPApp"
     }
   },
   "algorithms": [
